@@ -1,0 +1,12 @@
+<svg width="128" height="128" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        #r { fill: #e3faf5; }
+        #container { fill: #11dac2; }
+        @media (prefers-color-scheme: dark) {
+            #r { fill: #041a2f; }
+            #container { fill: #e3faf5; }
+        }
+    </style>
+    <rect id="container" width="128" height="128" rx="64"/>
+    <path id="r" fill-rule="evenodd" clip-rule="evenodd" d="M40 40H52C58.2592 40 63.3333 45.3726 63.3333 52V54.1176C63.3333 59.2221 60.3233 63.5822 56.0801 65.3165L56.1681 65.6894C57.2369 70.2161 58 74.5882 59.8665 78.5515L64 88H56.6667L54.1499 82.1832C52 77.4118 50.9289 72.6037 49.7005 67.4014L49.3974 66.1176H46.6667V88H40V40ZM46.6667 59.0588H52C54.5773 59.0588 56.6667 56.8466 56.6667 54.1176V52C56.6667 49.2711 54.5773 47.0588 52 47.0588H46.6667V59.0588ZM88 67H76V61H88V67Z"/>
+</svg>

@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-family: Euclid Circular B, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 1rem;
+  --user-font-scale: 1rem - 16px;
+  font-size: clamp(
+    0.875rem,
+    0.4626rem + 1.0309vw + var(--user-font-scale),
+    1.125rem
+  );
+
+  --colors-primary-pale: #d1d4d9;
+  --colors-primary-light: #a5aab4;
+  --colors-primary-soft: #7b8290;
+  --colors-primary-normal: #535d6e;
+  --colors-primary-dim: #2c3a4d;
+  --colors-primary-dark: #041a2f;
+
+  --colors-accent-pale: #e3faf5;
+  --colors-accent-light: #c7f4ea;
+  --colors-accent-soft: #a8eee0;
+  --colors-accent-normal: #87e7d6;
+  --colors-accent-dim: #5ee1cc;
+  --colors-accent-dark: #11dac2;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  background: var(--colors-accent-pale);
+  color: var(--colors-primary-normal);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--colors-primary-normal);
+    color: var(--colors-accent-pale);
+  }
+}
