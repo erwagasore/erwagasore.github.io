@@ -1,6 +1,6 @@
 env:
   githubEmail: rwagasore@gmail.com
-  deployToRepo: erwagasore.github.io
+  deployToRepo: rwgsr
 
 name: Github Pages CI
 
